@@ -21,6 +21,11 @@ ILCC’s ROS package
 
 ### Installation
 
+`midir my_pkg`  
+`cd my_pkg`  
+`git clone https://github.com/hai12hai12/lidar.git`  
+`cmake`
+
 ### Explanation of files
 
 load: ROS Signal Reception and File Storage.  
