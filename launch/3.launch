@@ -1,6 +1,0 @@
-<launch>
-  <node pkg="rosbag" type="play" name="bag_player" output="screen" args="-l --clock --hz=10 $(find my_pkg)/input.bag" />
-
-</launch>
-
-
