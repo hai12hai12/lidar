@@ -1,0 +1,6 @@
+<launch>
+	<param name="config_file" type="str" value="$(find my_pkg)/config.yaml" />
+	<param name="img_file" type="str" value="$(find my_pkg)/img" />
+        <node name="registion_node" pkg="my_pkg" type="registion" output="screen" />
+</launch>
+
