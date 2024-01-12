@@ -21,7 +21,7 @@ ILCC’s ROS package
 
 ### Installation
 
-`midir my_pkg`  
+`mkdir my_pkg`  
 `cd my_pkg`  
 `git clone https://github.com/hai12hai12/lidar.git`  
 `cmake`
