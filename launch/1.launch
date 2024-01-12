@@ -1,9 +1,0 @@
-<launch>
-    <node name="input_node" pkg="my_pkg" type="input" output="screen">
-	<param name="img" value="$(find my_pkg)/img" />
-	<param name="pc" value="$(find my_pkg)/pcd" /> 
-    </node>
-
-</launch>
-
-
