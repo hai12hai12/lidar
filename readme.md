@@ -21,8 +21,8 @@ ILCC’s ROS package
 
 ### Installation
 
-`mkdir catkin_ws/src/my_pkg`  
-`cd catkin_ws/src/my_pkg`  
+`mkdir catkin_ws/src/ilcc-ros`  
+`cd catkin_ws/src/ilcc-ros`  
 `git clone https://github.com/hai12hai12/lidar.git`  
 `cd catkin_ws`  
 `catkin_make`  
