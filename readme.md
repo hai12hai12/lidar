@@ -31,11 +31,12 @@ ILCC’s ROS package
 
 load: ROS Signal Reception and File Storage.  
 Registion:File Registration for Alignment.  
-Visualization:Visualization of Alignment Results.  
+Visualization:Visualization of Alignment Results.   
+config.yaml: Registration parameters  
 
 ### Process
 
-1.Roslaunch 1.launch is ready to receive signals for the release of the package, press the spacebar to store the subscribed messages as a file.  
+1.Roslaunch load.launch is ready to receive signals for the release of the package, press the spacebar to store the subscribed messages as a file.  
 2.The project subscribes to ponitcloud2 and image messages. Messages can be released by playing back the rosbag we provide.  
-3.Roslaunch 2.launch for point cloud registration via ILCC.  
-4.Roslaunch 3.launch to visualize the registration results.    
+3.Roslaunch registion.launch for point cloud registration via ILCC.  
+4.Roslaunch rviz.launch to visualize the registration results.    
