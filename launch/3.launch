@@ -1,5 +1,0 @@
-<launch>
-        <param name="pcd_path" type="str" value="$(find my_pkg)/pcd/" />
-	<node name="rz" pkg="my_pkg" type="rviz" output="screen" />
-        <node name="rviz" pkg="rviz" type="rviz" />
-</launch>
