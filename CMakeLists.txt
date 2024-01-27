@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(my_pkg)
+project(ilcc-ros)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -110,7 +110,7 @@ catkin_package(
   sensor_msgs
   cv_bridge
   image_transport
-  message_runtime  # 添加这行
+  message_runtime
 )
 
 ###########
@@ -126,7 +126,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/my_pkg.cpp
+#   src/${PROJECT_NAME}/ilcc-ros.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -163,7 +163,7 @@ include_directories(
 
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
-catkin_install_python(PROGRAMS bin/registion bin/rviz bin/input bin/load
+catkin_install_python(PROGRAMS scripts/registion scripts/rviz scripts/input scripts/load
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 
